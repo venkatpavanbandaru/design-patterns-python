@@ -19,4 +19,4 @@ This repository contains implementations of various design patterns in Python.
 Each pattern is implemented in its respective folder with examples and documentation.
 
 ## Author
-Pavan Bandaru
+venkat Pavan Bandaru
