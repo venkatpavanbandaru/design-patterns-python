@@ -1,22 +1,31 @@
-# Design Patterns in Python
+#  Design Patterns in Python
 
-This repository contains implementations of various design patterns in Python.
+This repository contains implementations of commonly used design patterns in Python, with real-world examples and clean, modular code.
 
-## Patterns Implemented
+---
 
-### Factory Method Pattern
-- Location: `factory/report_exporter.py`
-- Description: Implements a factory method for creating different types of report exporters (PDF, CSV, JSON)
+##  Patterns Implemented
 
-### Builder Pattern
-- Location: `builder/` (Coming soon)
+###  Factory Method Pattern
+- **Location:** `factory/report_exporter.py`
+- **Description:** Implements a factory method for generating different types of report exporters (PDF, CSV, JSON) using class-based object creation and Open/Closed Principle.
 
-### Singleton Pattern
-- Location: `singleton/` (Coming soon)
+###  Builder Pattern
+- **Location:** `builder/resume_builder.py`
+- **Description:** Uses the Builder Pattern to construct complex `Resume` objects step-by-step using a fluent API. Solves the telescoping constructor problem.
 
-## Usage
+###  Singleton Pattern
+- **Location:** `singleton/` *(Coming soon)*
 
-Each pattern is implemented in its respective folder with examples and documentation.
+---
 
-## Author
-venkat Pavan Bandaru
+##  Usage
+
+Each pattern is located in its own folder and includes:
+- Example code
+- Explanation in comments
+- Entry point for testing (if applicable)
+
+Run the files using:
+```bash
+python folder_name/file_name.py
