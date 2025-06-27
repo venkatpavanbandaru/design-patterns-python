@@ -15,7 +15,8 @@ This repository contains implementations of commonly used design patterns in Pyt
 - **Description:** Uses the Builder Pattern to construct complex `Resume` objects step-by-step using a fluent API. Solves the telescoping constructor problem.
 
 ###  Singleton Pattern
-- **Location:** `singleton/` *(Coming soon)*
+- **Location:** `singleton/` *
+- **Description:** Ensures only one instance of an object exists across the app. Implemented for a SchoolBell and Cricket Scoreboard example using `__new__()`.
 
 ---
 
